@@ -1,0 +1,44 @@
+body { font-family: sans-serif; }
+
+#playground {
+  background: black;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.score { 
+  font-size: 1.5em;
+  margin-bottom: 1%;
+}
+
+#ball {
+  background: yellow;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 135px;
+  top: 100px;
+  border-radius: 15px;
+}
+
+#racket {
+  background: yellow;
+  left: 110px;
+  top: 360px;
+  position: absolute;
+  width: 80px;
+  height: 20px;
+}
+
+#start-message, #game-over { 
+  color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 23%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#game-over { display: none; }
